@@ -6,3 +6,9 @@ def slectionSort(array, size):
 
             if array[i] < array[min_idx]:
                 min_idx = i
+
+data =  [7, 19, 24, 11, 17, 29]
+size = len(data)
+selectionSort(data, size)
+print("Sorted array in ascending order: ")
+print(data)
