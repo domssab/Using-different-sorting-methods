@@ -33,3 +33,11 @@ def PrintList(array):
     for i in range(len(array)):
         print(array[i], end=" ")
     print()
+
+if __name__ == '__main__':
+    array = [7, 19, 24, 11, 17, 29]
+
+    MergeSort(array)
+
+    print("Sorted array is: ")
+    PrintList(array)
