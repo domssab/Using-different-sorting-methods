@@ -5,3 +5,8 @@ def MergeSort(array):
         L = array[:r]
         M = array[r:]
 
+        MergeSort(L)
+        MergeSort(M)
+
+        i = j = k = 0
+
