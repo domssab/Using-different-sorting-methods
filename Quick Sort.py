@@ -9,3 +9,9 @@ def partition(array, low, high):
 
     (array[i + 1], array[high]) = (array[high], array[i + 1])
     return i + 1
+
+def QuickSort(array, low, high):
+    if low < high:
+        pi = partition(array, low, high)
+        QuickSort(array, low, pi - 1)
+        QuickSort(array, pi + 1, high)
