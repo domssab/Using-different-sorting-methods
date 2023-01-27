@@ -3,3 +3,6 @@ def InsertionSort(array):
         key = array[step]
         j = step - 1
 
+        while j >= 0 and key < array[j]:
+            array[j + 1] = array[j]
+            j = j - 1
