@@ -20,3 +20,8 @@ data = [7, 19, 24, 11, 17, 29]
 print("Unsorted Array")
 print(data)
 
+size = len(data)
+QuickSort(data, 0, size - 1)
+
+print("Sorted array in ascending order: ")
+print(data)
