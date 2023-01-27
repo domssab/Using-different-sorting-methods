@@ -18,3 +18,13 @@ def MergeSort(array):
                 array[k] = M[j]
                 j += 1
             k += 1
+
+        while i < len(L):
+            array[k] = L[i]
+            i += 1
+            k += 1
+
+        while j < len(M):
+            array[k] = M[j]
+            j += 1
+            k += 1
