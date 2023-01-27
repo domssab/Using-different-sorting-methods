@@ -15,3 +15,8 @@ def QuickSort(array, low, high):
         pi = partition(array, low, high)
         QuickSort(array, low, pi - 1)
         QuickSort(array, pi + 1, high)
+
+data = [7, 19, 24, 11, 17, 29]
+print("Unsorted Array")
+print(data)
+
